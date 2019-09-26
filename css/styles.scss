@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "manjari, open sans, helvetica, tahoma, sans serif";
+    line-height: 1.5rem;
+    background: url(/images/weather.png) no-repeat center center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-bottom: -40px;
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+    h1{
+        color:#fff;
+        font-size: 2.9rem;
+        letter-spacing: 0.7rem;
+        font-family: "Chilanka";
+        margin-top: 8px;
+    }
+
+}
+
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manjari";
+    
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    margin-bottom: -30px;
+    .city-zone{
+        color: #fff;
+        letter-spacing:0.2rem;
+    }
+    .date-time{
+        display: flex;
+        color: #fff;
+        justify-content: space-between;
+        
+    }
+}
+.city-temperature{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .temperature-description{
+        color: #fff;
+    }
+    .temperature-zone{
+        display:flex;
+        justify-content: center;
+        cursor: pointer;
+        color: #fff;
+        text-shadow: 2px 2px 4px #fff;
+        
+        
+    }
+}
+
+.temperature-zone span{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 3px;
+    
+}
+
+hr{
+    width: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #d1c6c6;;
+}
+
+.weather-icons{
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+
+    
+}
+.weather-icons article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+    .measuring-units{
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .units{
+        // padding: 5px;
+        font-size: 0.8rem;
+        color: #fff;
+
+    }
+}
+.wedIcons{
+    width: 25px;
+    height: 20px;
+}
